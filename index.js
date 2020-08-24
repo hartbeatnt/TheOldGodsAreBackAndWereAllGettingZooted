@@ -71,7 +71,7 @@ app.get(PATH + '/13', (req, res) => streamFile(13, res))
 app.get(PATH + '/14', (req, res) => streamFile(14, res))
 app.get(PATH + '/prompt.png', (req, res) => streamFile('prompt.png', res))
 
-app.get("*", (_, res) => console.log("boop") || res.redirect(PATH))
+app.get("*", (_, res) => res.redirect(PATH))
 
 // Start Listening
 app.listen(3000, () => {  
