@@ -26,6 +26,7 @@ h5 {
 img {
   width: 100%;
   max-width: 900px;
+  height: 100%;
 }
 
 button {
@@ -61,10 +62,10 @@ h5 {
   transition: opacity 1s;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   button {
     width: 88px;
     height: 77px;
     font-size: 40px;
   }
-}
+} */
